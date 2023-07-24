@@ -1,9 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Raleway:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 /* header start */
+
 .header{
+    top: 63px;
     color: black;
+}
+
+.header__wrapper {
+    display: flex;
+    top: 35px;
+    position: fixed;
 }
 
 .wrapper {
@@ -12,27 +40,53 @@
     padding: 0 15px;
 }
 
+.logo {
+    width: 50px;
+    height: 53px;
+}
+
+.header__text {
+    padding-left: 185px;
+}
+
+.header__text-button {
+    color: white;
+    text-decoration: none;
+    padding-left: 45px ;
+}
+
 /* header end */
 
 /* intro start */
 
-.intro {
-    background-repeat: no-repeat;
-    position: absolute;
+.intro{
+    min-height: 100vh;
+    background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
 }
 
 .intro__text {
-    padding: 200px 650px 0px 650px;
-    font-family: raleway;
+    padding: 260px 0 28px 273px;
+    font-family: 'raleway';
     font-size: 200px;
     font-weight: 700;
     line-height: 235px;
     letter-spacing: 0.6px;
     text-align: left;
+    color: #0D302C;
+    ;
 }
 
 .intro__text-paragraph {
-    padding: 10px 10px 10px 10px;
+    padding-left: 387px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    color: black;
 }
 /* intro end */
+
+
