@@ -89,4 +89,19 @@ img{
 }
 /* intro end */
 
+/* prewords start */
+
+.pre__text {
+    
+    color: #01353E;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+/* prewords end */
+
 
