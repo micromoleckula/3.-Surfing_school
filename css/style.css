@@ -55,6 +55,11 @@ img{
     padding-left: 45px ;
 }
 
+.header__text-button:hover {
+    transition: all .5s;
+    color: #353535;
+}
+
 /* header end */
 
 /* intro start */
@@ -134,10 +139,32 @@ padding-left: 20px;
 
 .garanties__text {
     padding-top: 200px;
+    padding-left: 300px;
+    padding-bottom: 101px;
 }
 
 .garanties__text-top {
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0.6px;
+    text-align: left;
+
     color: #01353E;
+}
+
+.benefits{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10px 0 50px;
+}
+
+.benefits-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding-left: 50px;
 }
 /* garanties end */
 
