@@ -135,6 +135,7 @@ padding-left: 20px;
     min-height: 100vh;
     background: url(../img/color-bg.jpg) no-repeat center;
     background-size: cover;
+    height: 1000px;
 }
 
 .garanties__text {
@@ -150,21 +151,104 @@ padding-left: 20px;
     line-height: 56px;
     letter-spacing: 0.6px;
     text-align: left;
-
     color: #01353E;
 }
 
 .benefits{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 10px 0 50px;
+    display: flex;
+}
+
+.benefits__paragraf {
+    width: 300px;
+    color: #242121;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+
+.benefits-1 {
+    padding-right: 130px;
 }
 
 .benefits-2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 60px;
+}
+
+.benefits__text {
+    padding-left: 10px;
+    width: 150px;
+}
+.benefits__img {
+    padding-bottom: 19px;
+}
+
+.triple__vector{
+    padding-top: 102px;
+}
+
+.vector {
+    display: flex;
+}
+
+.vector__text {
+    color: #242121;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 75% */
+    letter-spacing: 0.6px;
+    padding-left: 10px;
+}
+
+.vector__paragraf {
+    color: #242121;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.6px;
+}
+
+.vector__img1 {
+    background-size: cover;
+    width: 200px;
+}
+
+.vector__img2 {
+    background-size: cover;
+    width: 247px;
+}
+
+.vector__img3 {
+    background-size: cover;
+    width: 293px;
+}
+
+.vector11 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.vector__text-right {
+    padding-top: 103px;
+    color: #242121;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.6px;
+}
+
+.vector__paragraf-22 {
+    padding-top: 20px
 }
 /* garanties end */
 
