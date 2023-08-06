@@ -198,7 +198,7 @@ padding-left: 20px;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 75% */
+    line-height: 18px;
     letter-spacing: 0.6px;
     padding-left: 10px;
 }
@@ -209,7 +209,7 @@ padding-left: 20px;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
-    line-height: 18px; /* 128.571% */
+    line-height: 18px;
     letter-spacing: 0.6px;
 }
 
@@ -230,7 +230,6 @@ padding-left: 20px;
 
 .vector11 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
 }
 
 .vector__text-right {
@@ -240,7 +239,7 @@ padding-left: 20px;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
-    line-height: 18px; /* 128.571% */
+    line-height: 18px;
     letter-spacing: 0.6px;
 }
 
@@ -270,7 +269,7 @@ padding-left: 20px;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
-    line-height: 18px; /* 128.571% */
+    line-height: 18px;
     letter-spacing: 0.6px;
     padding-bottom: 10px;
     width: 550px;
@@ -311,7 +310,7 @@ padding-left: 20px;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 75% */
+    line-height: 18px;
     letter-spacing: 0.6px;
     text-decoration: none;
     padding-right: 20px;
@@ -348,7 +347,7 @@ padding-left: 20px;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 75% */
+    line-height: 18px;
     letter-spacing: 0.6px;
     border: 1px solid #C4C4C4;
     background: #FFF;
@@ -364,7 +363,7 @@ padding-left: 20px;
 
 /* galery end */
 
-/* video start */
+/* quote start */
 
 .quote__text-top {
     padding-top: 81px;
@@ -373,7 +372,7 @@ padding-left: 20px;
     font-size: 36px;
     font-style: italic;
     font-weight: 400;
-    line-height: 40px; /* 111.111% */
+    line-height: 40px;
     letter-spacing: 0.6px;
     text-align: center;
 }
@@ -384,13 +383,56 @@ padding-left: 20px;
     font-size: 14px;
     font-style: italic;
     font-weight: 300;
-    line-height: 18px; /* 128.571% */
+    line-height: 18px;
     letter-spacing: 0.6px;
     text-align: end;
     padding-right: 150px;
     padding-bottom: 60px;
 }
 
+/* quote end */
+
+/* video start */
+
+.video__yt {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 /* video end */
+
+/* stats start */
+
+.stats {
+    display: flex;
+}
+
+.stats__text {
+    margin: auto;
+
+}
+
+.stats-top {
+    color: #01353E;
+    font-family: 'Roboto Condensed';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.stats-bottom {
+    color: #242121;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+/* stats end */
 
 
