@@ -435,4 +435,19 @@ padding-left: 20px;
 }
 /* stats end */
 
+/* blog start */
+
+.blog__text-top1 {
+    padding: 200px 0 200px 0;
+    text-align: center;
+    color: #01353E;
+    font-family: 'Raleway';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+/* blog end */
 
