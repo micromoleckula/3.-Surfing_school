@@ -544,7 +544,8 @@ margin: auto;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 0.6px;   
+    letter-spacing: 0.6px;  
+    text-align: start; 
 }
 
 /* services end */
