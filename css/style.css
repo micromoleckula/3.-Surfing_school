@@ -572,6 +572,18 @@ margin: auto;
 
 /* map start */
 
+.wrapper__map {
+    width: 1480px;
+    margin: 0 auto;
+}
+
+.map__jpg {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+
+}
+
 
 /* map end */
 
@@ -719,3 +731,13 @@ margin: auto;
     width: 300px;
 }
 /* application end */
+
+/* footer start */
+
+.footer__svg {
+    background: #00B2A0;
+    width: 1920px;
+    height: 200px;
+    top: 2222px;
+
+}
