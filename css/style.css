@@ -21,23 +21,26 @@ img{
     height: auto;
 }
 
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* header start */
 
 .header{
     top: 63px;
-    color: black;
+}
+
+.header_active {
+    background: #2d3f4d;
 }
 
 .header__wrapper {
     display: flex;
     top: 35px;
     position: fixed;
-}
-
-.wrapper {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .logo {
@@ -142,7 +145,7 @@ padding-left: 20px;
 }
 
 .garanties__text-top {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
@@ -189,6 +192,10 @@ padding-left: 20px;
 }
 
 .vector {
+    display: grid;
+}
+
+.vector11 {
     display: flex;
 }
 
@@ -226,10 +233,6 @@ padding-left: 20px;
 .vector__img3 {
     background-size: cover;
     width: 293px;
-}
-
-.vector11 {
-    display: grid;
 }
 
 .vector__text-right {
@@ -738,5 +741,218 @@ margin: auto;
     background: #00B2A0;
     width: 1920px;
     height: 200px;
+}
 
+/* footer end */
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 1024px;
+    }
+
+    /* header */
+
+    .header__wrapper {
+        margin-left: 50px;
+    }
+
+    /* header */
+
+    /* intro */
+
+    .intro{
+        min-height: 70vh;
+        background: url(../img/intro-bg.jpg) no-repeat center;
+        background-size: cover;
+        padding-bottom: 189px;
+    }
+
+    /* intro */
+
+    /* garanties */
+
+    .garanties__text {
+        padding-top: 100px;
+        padding-left: 200px;
+        padding-bottom: 101px;
+    }
+
+    .benefits__img {
+        margin-left: -30px;
+    }
+
+    .benefits{
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+        padding-left: 120px;
+    }
+
+    .benefits-1 {
+        margin-left: -100px;
+        padding-bottom: 40px;
+    }
+
+    .vector {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 800px;
+        margin-left: 120px;
+    }
+    
+    /* garanties */
+
+    /* motivation */
+
+    .wrapper__motivation {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .motivation__box {
+        display: flex;
+        padding-left: 0px;
+    }
+    
+    .motivation__jpg {
+        width: 430px;
+        height: 320px;
+        padding-left: 40px;
+        margin-top: 12px;
+    }
+
+    .motivation__text-top {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* motivation */
+
+    /* galery */
+
+    .galery__text-items {
+        margin-left: 50px
+    }
+
+    .galery__img {
+        width: 900px;
+        margin-left: 50px;
+    }
+
+    /* galery */
+
+    /* video */
+
+    .video__ytb {
+        width: 1000px;
+        height: 600px;
+        margin-left: -13px;
+    }
+
+    /* video */
+}
+
+@media screen and (max-width: 820px) {
+    .wrapper {
+        width: 1024px;
+    }
+
+    /* header */
+
+    .header__wrapper {
+        margin-left: 50px;
+    }
+
+    /* header */
+
+    /* intro */
+
+    .intro{
+        min-height: 100vh;
+        background: url(../img/intro-bg.jpg) no-repeat center;
+        background-size: cover;
+        padding-bottom: 189px;
+    }
+
+    /* intro */
+
+    /* garanties */
+
+    .garanties__text {
+        padding-top: 100px;
+        padding-left: 200px;
+        padding-bottom: 101px;
+    }
+
+    .benefits__img {
+        margin-left: -30px;
+    }
+
+    .benefits{
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+        padding-left: 120px;
+    }
+
+    .benefits-1 {
+        margin-left: -100px;
+        padding-bottom: 40px;
+    }
+
+    .vector {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 800px;
+        margin-left: 120px;
+    }
+    
+    /* garanties */
+
+    /* motivation */
+
+    .wrapper__motivation {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .motivation__box {
+        display: flex;
+        padding-left: 0px;
+    }
+    
+    .motivation__jpg {
+        width: 430px;
+        height: 320px;
+        padding-left: 40px;
+        margin-top: 12px;
+    }
+
+    .motivation__text-top {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* motivation */
+
+    /* galery */
+
+    .galery__text-items {
+        margin-left: 50px
+    }
+
+    .galery__img {
+        width: 900px;
+        margin-left: 50px;
+    }
+
+    /* galery */
+
+    /* video */
+
+    .video__ytb {
+        width: 1000px;
+        height: 600px;
+        margin-left: -14px;
+    }
+
+    /* video */
 }
