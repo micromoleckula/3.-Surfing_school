@@ -1,3 +1,9 @@
+$(function () {
+    alert("heellooooo")
+})
+
+
+
 (function () {
     const header_active = document.querySelector('.header')
     window.onscroll = () => {

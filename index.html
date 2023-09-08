@@ -6,6 +6,7 @@
     <title>Wawe</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </head>
@@ -193,7 +194,8 @@
                 <img src="./img/galery/cool-girl-surfer.jpg" alt="1" class="galery__jpg galery__jpg2">
             </div>
             <div class="galery__button">
-                <a href="#!" class="galery__button-1">ПОКАЗАТЬ ЕЩЕ</a>
+                <a href="#!" class="galery__button-1 " role="button">ПОКАЗАТЬ ЕЩЕ</a>
+                <a href="#!" class="galery__button-1 like-button" role="button"> <span class="like__counter">149</span> Нравится</a>
             </div>
         </div>
     </section>
@@ -281,8 +283,30 @@
     <!-- slider start -->
 
     <section class="slider">
-
-
+       
+        <div class="swiper">
+    
+            <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+                <img src="./img/window-galery.jpg" alt="1">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/window-galery.jpg" alt="1">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/window-galery.jpg" alt="1">
+            </div>
+            
+            </div>
+  
+            <div class="swiper-pagination"></div>
+  
+   
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+        </div>
     </section>
 
     <!-- slider end -->
@@ -374,9 +398,7 @@
 
     <section class="map">
         <div class="wrapper__map">
-            <div class="map__jpg" style="width: 100%; height: 100%;">
-                
-            </div>
+            <div id="map"></div>
         </div>
     </section>
 
@@ -440,7 +462,11 @@
     </section>
 
     <!-- footer end -->
-     
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/map.js"></script>
     <script src="./js/index.js"></script>
 </body>
 </html>
