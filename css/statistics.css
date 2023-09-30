@@ -1,0 +1,30 @@
+.stats {
+  display: flex;
+}
+
+.stats__text {
+  margin: auto;
+
+}
+
+.stats-top {
+  color: #01353E;
+  font-family: 'Roboto Condensed';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.stats-bottom {
+  color: #242121;
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  text-align: center;
+}

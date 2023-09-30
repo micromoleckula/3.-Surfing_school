@@ -1,0 +1,40 @@
+.motivation__text-top {
+  color: #01353E;
+  font-family: 'Raleway';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.motivation__text-bottom {
+  color: #242121;
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  padding-bottom: 10px;
+  max-width: 550px;
+}
+
+.motivation__box {
+  display: flex;
+  justify-content: end;
+}
+
+.motivation__jpg {
+  max-width: 960px;
+  max-height: 850px;
+  margin-left: 40px ;
+  padding-top: 200px;
+}
+
+.wrapper__motivation {
+  margin: 0 auto;
+  padding: 0 15px;
+}

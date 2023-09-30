@@ -1,0 +1,29 @@
+.intro{
+  min-height: 100vh;
+  background: url(../img/intro-bg.jpg) no-repeat center;
+  background-size: cover;
+  padding-bottom: 189px;
+}
+
+.intro__text {
+  text-align: center;
+  padding-top: 260px ;
+  padding-bottom: 28px;
+  font-family: 'raleway';
+  font-size: 200px;
+  font-weight: 700;
+  line-height: 235px;
+  letter-spacing: 0.6px;
+  color: #0D302C;
+}
+
+.intro__text-paragraph {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: black;
+}

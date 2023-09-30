@@ -1,0 +1,29 @@
+.header__wrapper {
+  display: flex;
+  position: fixed;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 53px;
+  min-width: max-content;
+  padding: 1px;
+  margin-right: 300px;
+}
+
+.header__text {
+  display: flex;
+  margin: auto 0;
+}
+
+.header__text-button {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.header__text-button:hover {
+  transition: all .5s;
+  color: #353535;
+}

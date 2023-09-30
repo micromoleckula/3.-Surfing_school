@@ -1,0 +1,29 @@
+.pre__text {
+  text-align: center;
+  color: #01353E;
+  font-family: 'Raleway';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  padding-top: 189px;
+  padding-bottom: 100px;
+}
+
+.advantages__column {
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: repeat(2,50%);
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.advantages2 {
+padding-left: 20px;
+}
+
+.pre__advantages {
+  padding-bottom: 200px;
+}

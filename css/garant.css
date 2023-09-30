@@ -1,0 +1,116 @@
+.background {
+  background-color: #F8F8F8;
+}
+
+.garanties__text {
+  padding-top: 200px;
+  padding-left: 300px;
+  padding-bottom: 101px;
+}
+
+.garanties__text-top {
+  font-family: 'Raleway';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #01353E;
+}
+
+.benefits{
+  display: flex;
+}
+
+.benefits__paragraf {
+  width: 300px;
+  color: #242121;
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.benefits-1 {
+  padding-right: 130px;
+}
+
+.benefits-2 {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.benefits__text {
+  padding-left: 10px;
+  width: 150px;
+}
+.benefits__img {
+  padding-bottom: 19px;
+}
+
+.triple__vector{
+  padding-top: 102px;
+}
+
+.vector {
+  display: grid;
+}
+
+.vector11 {
+  display: flex;
+}
+
+.vector__text {
+  color: #242121;
+  font-family: 'Roboto Condensed';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  padding-left: 10px;
+}
+
+.vector__paragraf {
+  color: #242121;
+  font-family: Roboto Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.vector__img1 {
+  background-size: cover;
+  width: 200px;
+}
+
+.vector__img2 {
+  background-size: cover;
+  width: 247px;
+}
+
+.vector__img3 {
+  background-size: cover;
+  width: 293px;
+}
+
+.vector__text-right {
+  padding-top: 103px;
+  color: #242121;
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+.vector__paragraf-22 {
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
